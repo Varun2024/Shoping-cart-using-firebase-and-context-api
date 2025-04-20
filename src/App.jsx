@@ -17,10 +17,10 @@ const App = () => {
     <CartProvider>
 
       <div className='shopping-cart'>
-        {/* <div className="sign"> */}
+        <div className="sign">
           <SignUp />
           <SignIn />
-        {/* </div> */}
+        </div>
         <h1>Shopping cart</h1>
         <div className="content">
           <ProductList />
