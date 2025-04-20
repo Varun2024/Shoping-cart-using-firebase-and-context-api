@@ -10,8 +10,10 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "firebase": "^11.6.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
+    "toastify": "^2.0.1",
     "uuid": "^11.1.0"
   },
   "devDependencies": {

@@ -2,6 +2,11 @@ import React from 'react'
 import ProductList from './components/ProductList'
 import CartProvider from './context/CardContext'
 import Cart from './components/Cart'
+import SignG from './components/SignG'
+import SignGit from './components/SignGit'
+
+
+
 
 const App = () => {
   return (
@@ -12,8 +17,13 @@ const App = () => {
           <ProductList />
           <Cart />
         </div>
+        <div className="sign">
+          <SignG/>
+          <SignGit/>
+        </div>
       </div>
-    </CartProvider>   
+
+    </CartProvider>
   )
 }
 
